@@ -12,10 +12,15 @@ body{
   -o-border-radius: 10px;
   margin-top: 15px;
 }
-.input-sid{
+.input-side{
   display: none;
 }
-        
+.label-side{
+  display: inline-block;
+}
+      .label-side :checked ~nav{
+        opacity: 1;
+      } 
 .sidebar {
  width: 150px;
  height: 100vh;

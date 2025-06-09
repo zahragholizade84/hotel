@@ -14,8 +14,16 @@ body {
   margin-top: 15px;
 }
 
-.input-sid {
+.input-side {
   display: none;
+}
+
+.label-side {
+  display: inline-block;
+}
+
+.label-side :checked ~ nav {
+  opacity: 1;
 }
 
 .sidebar {
