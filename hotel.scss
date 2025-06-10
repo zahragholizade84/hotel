@@ -1,3 +1,7 @@
+$color-back:red;
+$font-span:15px;
+
+
 body{
   background-color: rgb(58, 58, 109);
 }
@@ -11,6 +15,35 @@ body{
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   margin-top: 15px;
+}
+.logo{
+  margin-left: 1350px;
+  margin-top: -20px;
+}
+.span-hotel{
+  color:$color-back;
+margin-top: -10px;
+  font-size: $font-span;
+margin-left: 1200px;
+}
+.span-tour{
+ 
+  color:$color-back;
+  margin-top:-20px;
+  font-size: $font-span;
+margin-left: 1100px;
+}
+.span-ticket{
+  color:$color-back;
+  margin-top:-30px;
+  font-size: $font-span;
+margin-left: 990px;
+}
+.span-more{
+  color:$color-back;
+  margin-top: -40px;
+  font-size: $font-span;
+margin-left: 900px;
 }
 .input-side{
   display: none;
