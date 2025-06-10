@@ -12,6 +12,7 @@ body {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   margin-top: 15px;
+  position: relative;
 }
 
 .logo {
@@ -20,31 +21,35 @@ body {
 }
 
 .span-hotel {
-  color: red;
-  margin-top: -10px;
+  color: rgb(58, 58, 109);
+  margin-top: 10px;
   font-size: 15px;
-  margin-left: 1200px;
+  margin-left: -250px;
+  position: absolute;
 }
 
 .span-tour {
-  color: red;
-  margin-top: -20px;
+  color: rgb(58, 58, 109);
+  margin-top: 10px;
   font-size: 15px;
-  margin-left: 1100px;
+  margin-left: -350px;
+  position: absolute;
 }
 
 .span-ticket {
-  color: red;
-  margin-top: -30px;
+  color: rgb(58, 58, 109);
+  margin-top: 10px;
   font-size: 15px;
-  margin-left: 990px;
+  margin-left: -480px;
+  position: absolute;
 }
 
 .span-more {
-  color: red;
-  margin-top: -40px;
+  color: rgb(58, 58, 109);
+  margin-top: 10px;
   font-size: 15px;
-  margin-left: 900px;
+  margin-left: -580px;
+  position: absolute;
 }
 
 .input-side {
